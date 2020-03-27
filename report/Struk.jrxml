@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Struk" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="958749bf-4467-496a-b6c2-ece0b72d1798">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="77"/>
+	<style name="Title" fontName="Arial" fontSize="26" isBold="true" pdfFontName="Helvetica-Bold"/>
+	<style name="SubTitle" forecolor="#666666" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<parameter name="kd_transaksi" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[select * from t_transaksi
+where t_transaksi.kd_transaksi = $P{kd_transaksi}]]>
+	</queryString>
+	<field name="kd_transaksi" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tanggal" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="kd_pelanggan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nm_pengambil" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="kode_barang" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama_barang" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="keluar" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="triwulan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nip" class="java.lang.String"/>
+	<field name="pangkat" class="java.lang.String"/>
+	<group name="kd_transaksi">
+		<groupExpression><![CDATA[$F{kd_transaksi}]]></groupExpression>
+		<groupHeader>
+			<band height="4"/>
+		</groupHeader>
+		<groupFooter>
+			<band height="461">
+				<textField pattern="EEEEE dd MMMMM yyyy">
+					<reportElement style="Column header" x="0" y="20" width="197" height="20" forecolor="#000000" uuid="5aef90e3-89c0-4f5f-9fb5-d7cb49c4de0e"/>
+					<textElement>
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="383" y="20" width="100" height="20" uuid="8969e678-b763-4875-a9cd-4fbaa3899750"/>
+					<text><![CDATA[Dibuat Di Bandung]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="383" y="40" width="130" height="20" uuid="4d075cfc-4e8a-46fe-a6be-ff2d553e1097"/>
+					<text><![CDATA[Pada Tanggal,         2018]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="42" y="70" width="100" height="20" uuid="c23fe67f-088c-4612-a4b8-43f8bbfba6c7"/>
+					<textElement>
+						<font isBold="true" isUnderline="true"/>
+					</textElement>
+					<text><![CDATA[Yang Menerima :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="383" y="70" width="100" height="20" uuid="e9c0f12d-20e9-492c-a243-6871f4b0e7c1"/>
+					<textElement>
+						<font isBold="true" isUnderline="true"/>
+					</textElement>
+					<text><![CDATA[Yang Menyerahkan :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="383" y="102" width="100" height="20" uuid="4759aa6f-35e1-4264-8eff-b3ab70e59ae9"/>
+					<text><![CDATA[Penyimpan Barang :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="338" y="189" width="70" height="20" uuid="8a3ee46c-f7ee-47bd-bb09-e4e482d824f3"/>
+					<text><![CDATA[Nama           :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="338" y="209" width="70" height="20" uuid="2cc268e0-a3e3-4045-a6e4-ccdb2cc25008"/>
+					<text><![CDATA[NIP               :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="339" y="229" width="69" height="20" uuid="de43609e-c52d-446d-a926-83573efa8f10"/>
+					<text><![CDATA[Pangkat/Gol :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="408" y="189" width="123" height="20" uuid="7bb26f07-ed40-454d-80b6-becf27a9d8fb"/>
+					<text><![CDATA[Dadang, S.Ip]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="408" y="209" width="123" height="20" uuid="5625e89f-3f86-4626-a7ac-ca75e921e917"/>
+					<text><![CDATA[19710302 200701 1 008]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="408" y="229" width="123" height="20" uuid="8e3be882-2cf0-4933-a10a-9e83297b4890"/>
+					<text><![CDATA[III/c]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="383" y="122" width="100" height="20" uuid="3caee004-fcca-42c0-96cf-630d462c304a"/>
+					<text><![CDATA[Tanda Tangan :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="42" y="122" width="100" height="20" uuid="0bde9513-4c64-4b6a-9657-702e6ac6120e"/>
+					<text><![CDATA[Tanda Tangan :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="41" y="189" width="70" height="20" uuid="220f6f24-37d7-483b-bfab-50c0e424c520"/>
+					<text><![CDATA[Nama            :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="209" y="260" width="100" height="20" uuid="4f1a578f-893e-4ebd-b2b2-7ea469103d0a"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Mengetahui,]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="111" y="280" width="286" height="20" uuid="cf840eb1-5152-4ee2-84fa-588fc569620d"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[PENGGUNA BARANG / KUASA PENGGUNA BARANG]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="209" y="300" width="86" height="20" uuid="ca1f0d04-3bcc-4df3-a30c-346425c97b7a"/>
+					<text><![CDATA[Tanda Tangan :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="209" y="398" width="70" height="20" uuid="204d64cb-8031-4385-be47-e80e4064085d"/>
+					<text><![CDATA[NIP               :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="209" y="378" width="70" height="20" uuid="b43634d3-f286-42f4-8d6b-0fcb5674205f"/>
+					<text><![CDATA[Nama           :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="209" y="418" width="69" height="20" uuid="d67ab001-dffe-4f0f-8663-5281e45dcd12"/>
+					<text><![CDATA[Pangkat/Gol :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="210" y="438" width="69" height="19" uuid="9dd2e657-7402-4132-900e-e5b0da053e93"/>
+					<text><![CDATA[Jabatan        :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="285" y="418" width="123" height="20" uuid="33701e36-6996-42c1-8feb-313c00749b25"/>
+					<text><![CDATA[IV/b]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="285" y="378" width="123" height="20" uuid="c8209217-0b80-4dee-81d4-830f1e148ab6"/>
+					<text><![CDATA[Ir. DIDI RUSWANDI, MT.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="285" y="398" width="123" height="20" uuid="4f765fad-b1b0-42d1-8c55-c262d2feda40"/>
+					<text><![CDATA[19680710 199503 1 002]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="285" y="437" width="211" height="20" uuid="c2ead916-7b3b-4c34-82a6-241d94c702e7"/>
+					<text><![CDATA[Kepala Dinas Perhubungan Kota Bandung]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="111" y="189" width="100" height="20" uuid="f1e7a1f0-0393-4826-a2e9-2c465aad3d64"/>
+					<textFieldExpression><![CDATA[$F{nm_pengambil}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="111" y="209" width="100" height="20" uuid="26ced169-2d4f-439a-83ac-ddbb8b3032a5"/>
+					<textFieldExpression><![CDATA[$F{nip}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="111" y="229" width="100" height="20" uuid="6c2ec297-2d33-41bd-9ae3-b4563d27ce7d"/>
+					<textFieldExpression><![CDATA[$F{pangkat}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="42" y="209" width="70" height="20" uuid="0ab5d886-11fe-4fad-9219-d02991993d94"/>
+					<text><![CDATA[Nip                :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="42" y="229" width="70" height="20" uuid="cf830769-421b-4dde-b88b-ecf3adaf1c73"/>
+					<text><![CDATA[Pangkat         :]]></text>
+				</staticText>
+			</band>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="70" splitType="Stretch">
+			<staticText>
+				<reportElement style="Title" x="164" y="0" width="219" height="33" uuid="3bcc5c2d-867b-4019-b760-6ad1a4046b4d"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Calibri" size="11"/>
+				</textElement>
+				<text><![CDATA[Gudang Dinas Perhubungan Kota Bandung]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="SubTitle" x="188" y="33" width="145" height="22" forecolor="#000000" uuid="0d46454f-5403-4b10-8d1f-1e6e8550ee12"/>
+				<textElement>
+					<font fontName="Calibri" size="11"/>
+				</textElement>
+				<text><![CDATA[Bukti Pengambilan Barang]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="SubTitle" x="188" y="55" width="77" height="15" forecolor="#000000" uuid="c37a5573-fe94-42ef-9ba3-29db9b33e7b3"/>
+				<textElement>
+					<font fontName="Calibri" size="11"/>
+				</textElement>
+				<text><![CDATA[Kepada : Bidang]]></text>
+			</staticText>
+			<textField>
+				<reportElement style="Detail" x="272" y="55" width="111" height="15" uuid="c9027e77-ebde-487b-9fc8-42432e5e6f00"/>
+				<textElement>
+					<font fontName="Calibri" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{kd_pelanggan}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="36" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="35" width="555" height="1" uuid="168fb7b0-5b93-4dc9-8518-373a5d9a269d"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement style="Column header" x="0" y="19" width="111" height="15" uuid="9a6c873d-0d4a-4c32-8c54-02211103b8b3"/>
+				<text><![CDATA[Tanggal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="111" y="19" width="333" height="15" uuid="646eb2e1-17cb-4557-aab1-cec9250037cc"/>
+				<text><![CDATA[Nama Barang]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="444" y="19" width="111" height="15" uuid="4894de98-de37-4c90-9986-a746859204f0"/>
+				<text><![CDATA[Jumlah]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="16" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="15" width="555" height="1" uuid="a6912b15-dc52-4efc-9ac7-baf43864703a"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement style="Detail" x="0" y="0" width="111" height="15" uuid="866d21fc-8cd2-4d17-9e26-c5a6c7ae51e6"/>
+				<textFieldExpression><![CDATA[$F{tanggal}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="Detail" x="111" y="0" width="333" height="15" uuid="508a8314-c4ac-482c-b2f8-02a9ef93010a"/>
+				<textFieldExpression><![CDATA[$F{nama_barang}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="Detail" x="444" y="0" width="111" height="15" uuid="36e70b3b-c24a-4e27-808c-19319f689187"/>
+				<textFieldExpression><![CDATA[$F{keluar}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="6" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="3" width="555" height="1" uuid="d6a4e97f-b367-4f6c-be56-771a43ec6874"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="20" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

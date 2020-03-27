@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DataBarang" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9f39275e-8cef-4f79-b1a5-66487d024794">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[select * from t_barang]]>
+	</queryString>
+	<field name="kode_barang" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama_barang" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="kode_kategori" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="164" y="0" width="229" height="20" uuid="fe6b3e2f-4367-4260-85c3-a0d9e4059bd1"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Gudang Dinas Perhubungan Kota Bandung]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="202" y="19" width="127" height="20" uuid="d3553a6a-b6c0-42ae-afe0-712d8d332d90"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Laporan Data Barang]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="15" width="150" height="20" uuid="01a09012-4a16-4491-b3f0-1d4fc45da1af"/>
+				<text><![CDATA[Kode Barang]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="15" width="279" height="20" uuid="8be713f8-2423-40de-bce0-72c1bb398e7f"/>
+				<text><![CDATA[Nama Barang]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="429" y="15" width="126" height="20" uuid="22f57832-f255-45c2-8d45-375b0a840d51"/>
+				<text><![CDATA[Kode Kategori]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="1" width="150" height="20" uuid="bbf59df3-6aa9-45c0-826e-5c2f32a5916e"/>
+				<textFieldExpression><![CDATA[$F{kode_barang}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="150" y="0" width="279" height="20" uuid="c839eecc-5eff-4ae0-b7d1-68f69ea605af"/>
+				<textFieldExpression><![CDATA[$F{nama_barang}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="429" y="1" width="126" height="20" uuid="3fd38dcf-a645-4b3d-a64b-62d5368306e5"/>
+				<textFieldExpression><![CDATA[$F{kode_kategori}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

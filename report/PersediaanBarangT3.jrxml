@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PersediaanBarang" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="8ef70f4e-29af-497a-a8da-9921c41be029">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="tgl1" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[select*from t_persediaan
+where YEAR(tahun) = $P{tgl1}]]>
+	</queryString>
+	<field name="kode_barang" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama_barang" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="kode_kategori" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="harga" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="jumlah" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="jumlaht2" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="jumlaht3" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="jumlaht4" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tahun" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="193" y="59" width="58" height="20" uuid="62875a6c-02d1-4b80-8b87-1a6824f029e1"/>
+				<text><![CDATA[Tahun]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="185" y="39" width="132" height="20" uuid="f843aa31-fff8-4f28-8974-491a777b028b"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Triwulan 3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="143" y="0" width="229" height="20" uuid="bbffa99f-0fcf-4391-b078-406bdc664710"/>
+				<text><![CDATA[Gudang Dinas Perhubungan Kota Bandung]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="181" y="19" width="136" height="20" uuid="564d0ddd-feb2-4798-8372-e4a9fdcfda33"/>
+				<text><![CDATA[Laporan Persediaan Barang]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="251" y="59" width="95" height="20" uuid="ee6a2266-f2fa-415e-b903-2a451f46c111"/>
+				<textFieldExpression><![CDATA[$P{tgl1}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="15" width="122" height="20" uuid="6480216a-fa24-4480-82f1-c743a448fa08"/>
+				<text><![CDATA[Kode Barang]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="122" y="15" width="195" height="20" uuid="2bdd2b21-8a8c-4288-afee-a49569292f0e"/>
+				<text><![CDATA[Nama Barang]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="317" y="15" width="138" height="20" uuid="ff35a94f-b016-4b71-bad9-cb01a7a4212b"/>
+				<text><![CDATA[Kode Kategori]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="455" y="15" width="100" height="20" uuid="7c381c1e-00fe-4ce2-a274-c5b48e4800de"/>
+				<text><![CDATA[Persediaan]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="122" height="20" uuid="9cbbe66c-e1f0-441c-9f6b-3f1ff6ecd7ed"/>
+				<textFieldExpression><![CDATA[$F{kode_barang}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="122" y="0" width="195" height="20" uuid="78b98778-c2c0-4bc6-8f73-24007b91284f"/>
+				<textFieldExpression><![CDATA[$F{nama_barang}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="317" y="0" width="138" height="20" uuid="9529be3f-9c19-4d00-b6cb-e676b58137bd"/>
+				<textFieldExpression><![CDATA[$F{kode_kategori}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="455" y="0" width="100" height="20" uuid="8885096f-b219-4f2e-a505-be518fa393d5"/>
+				<textFieldExpression><![CDATA[$F{jumlaht3}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,541 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <style type="text/css">
+    a {text-decoration: none}
+  </style>
+</head>
+<body text="#000000" link="#000000" alink="#000000" vlink="#000000">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td width="50%">&nbsp;</td><td align="center">
+
+<a name="JR_PAGE_ANCHOR_0_1"></a>
+<table class="jrPage" cellpadding="0" cellspacing="0" border="0" style="empty-cells: show; width: 595px; border-collapse: collapse; background-color: white;">
+<tr valign="top" style="height:0">
+<td style="width:20px"></td>
+<td style="width:150px"></td>
+<td style="width:14px"></td>
+<td style="width:229px"></td>
+<td style="width:36px"></td>
+<td style="width:126px"></td>
+<td style="width:20px"></td>
+</tr>
+<tr valign="top" style="height:20px">
+<td colspan="7">
+</td>
+</tr>
+<tr valign="top" style="height:39px">
+<td colspan="3">
+</td>
+<td>
+<div style="width: 100%; height: 100%; position: relative;">
+<div style="position: absolute; overflow: hidden; width: 100%; height: 100%; ">
+<table cellpadding="0" cellspacing="0" border="0" style="empty-cells: show; width: 100%; border-collapse: collapse;">
+<tr valign="top" style="height:0">
+<td style="width:229px"></td>
+</tr>
+<tr valign="top" style="height:20px">
+<td style="pointer-events: auto; text-indent: 0px; text-align: center;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Gudang Dinas Perhubungan Kota Bandung</span></td>
+</tr>
+</table>
+</div>
+<div style="position: relative; width: 100%; height: 100%; pointer-events: none; ">
+<table cellpadding="0" cellspacing="0" border="0" style="empty-cells: show; width: 100%; border-collapse: collapse;">
+<tr valign="top" style="height:0">
+<td style="width:38px"></td>
+<td style="width:127px"></td>
+<td style="width:64px"></td>
+</tr>
+<tr valign="top" style="height:19px">
+<td colspan="3">
+</td>
+</tr>
+<tr valign="top" style="height:20px">
+<td>
+</td>
+<td style="pointer-events: auto; text-indent: 0px; text-align: center;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Laporan Data Barang</span></td>
+<td>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</td>
+<td colspan="3">
+</td>
+</tr>
+<tr valign="top" style="height:55px">
+<td colspan="7">
+</td>
+</tr>
+<tr valign="top" style="height:20px">
+<td>
+</td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kode Barang</span></td>
+<td colspan="3" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Nama Barang</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kode Kategori</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:1px">
+<td colspan="2">
+</td>
+<td colspan="3" rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kertas HVS 80 GR A4</span></td>
+<td colspan="2">
+</td>
+</tr>
+<tr valign="top" style="height:19px">
+<td>
+</td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">BRG0001</span></td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">ATK</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:1px">
+<td>
+</td>
+<td colspan="3">
+</td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:687px">
+<td colspan="7">
+</td>
+</tr>
+</table>
+<br/>
+<br/>
+
+<a name="JR_PAGE_ANCHOR_0_2"></a>
+<table class="jrPage" cellpadding="0" cellspacing="0" border="0" style="empty-cells: show; width: 595px; border-collapse: collapse; background-color: white;">
+<tr valign="top" style="height:0">
+<td style="width:20px"></td>
+<td style="width:150px"></td>
+<td style="width:279px"></td>
+<td style="width:126px"></td>
+<td style="width:20px"></td>
+</tr>
+<tr valign="top" style="height:35px">
+<td colspan="5">
+</td>
+</tr>
+<tr valign="top" style="height:20px">
+<td>
+</td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kode Barang</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Nama Barang</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kode Kategori</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:1px">
+<td colspan="2">
+</td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Spidol Kecil Warna Merah</span></td>
+<td colspan="2">
+</td>
+</tr>
+<tr valign="top" style="height:19px">
+<td>
+</td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">BRG0005</span></td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">ATK</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:1px">
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:766px">
+<td colspan="5">
+</td>
+</tr>
+</table>
+<br/>
+<br/>
+
+<a name="JR_PAGE_ANCHOR_0_3"></a>
+<table class="jrPage" cellpadding="0" cellspacing="0" border="0" style="empty-cells: show; width: 595px; border-collapse: collapse; background-color: white;">
+<tr valign="top" style="height:0">
+<td style="width:20px"></td>
+<td style="width:150px"></td>
+<td style="width:279px"></td>
+<td style="width:126px"></td>
+<td style="width:20px"></td>
+</tr>
+<tr valign="top" style="height:35px">
+<td colspan="5">
+</td>
+</tr>
+<tr valign="top" style="height:20px">
+<td>
+</td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kode Barang</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Nama Barang</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kode Kategori</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:1px">
+<td colspan="2">
+</td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Solatip</span></td>
+<td colspan="2">
+</td>
+</tr>
+<tr valign="top" style="height:19px">
+<td>
+</td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">BRG0009</span></td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">ATK</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:1px">
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:766px">
+<td colspan="5">
+</td>
+</tr>
+</table>
+<br/>
+<br/>
+
+<a name="JR_PAGE_ANCHOR_0_4"></a>
+<table class="jrPage" cellpadding="0" cellspacing="0" border="0" style="empty-cells: show; width: 595px; border-collapse: collapse; background-color: white;">
+<tr valign="top" style="height:0">
+<td style="width:20px"></td>
+<td style="width:150px"></td>
+<td style="width:279px"></td>
+<td style="width:126px"></td>
+<td style="width:20px"></td>
+</tr>
+<tr valign="top" style="height:35px">
+<td colspan="5">
+</td>
+</tr>
+<tr valign="top" style="height:20px">
+<td>
+</td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kode Barang</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Nama Barang</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kode Kategori</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:1px">
+<td colspan="2">
+</td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Sapu Livina Plastik</span></td>
+<td colspan="2">
+</td>
+</tr>
+<tr valign="top" style="height:19px">
+<td>
+</td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">BRG0013</span></td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">AKBR</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:1px">
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:766px">
+<td colspan="5">
+</td>
+</tr>
+</table>
+<br/>
+<br/>
+
+<a name="JR_PAGE_ANCHOR_0_5"></a>
+<table class="jrPage" cellpadding="0" cellspacing="0" border="0" style="empty-cells: show; width: 595px; border-collapse: collapse; background-color: white;">
+<tr valign="top" style="height:0">
+<td style="width:20px"></td>
+<td style="width:150px"></td>
+<td style="width:279px"></td>
+<td style="width:126px"></td>
+<td style="width:20px"></td>
+</tr>
+<tr valign="top" style="height:35px">
+<td colspan="5">
+</td>
+</tr>
+<tr valign="top" style="height:20px">
+<td>
+</td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kode Barang</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Nama Barang</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kode Kategori</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:1px">
+<td colspan="2">
+</td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Pengharum raungan gell stella</span></td>
+<td colspan="2">
+</td>
+</tr>
+<tr valign="top" style="height:19px">
+<td>
+</td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">BRG0017</span></td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">AKBR</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:1px">
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:766px">
+<td colspan="5">
+</td>
+</tr>
+</table>
+<br/>
+<br/>
+
+<a name="JR_PAGE_ANCHOR_0_6"></a>
+<table class="jrPage" cellpadding="0" cellspacing="0" border="0" style="empty-cells: show; width: 595px; border-collapse: collapse; background-color: white;">
+<tr valign="top" style="height:0">
+<td style="width:20px"></td>
+<td style="width:150px"></td>
+<td style="width:279px"></td>
+<td style="width:126px"></td>
+<td style="width:20px"></td>
+</tr>
+<tr valign="top" style="height:35px">
+<td colspan="5">
+</td>
+</tr>
+<tr valign="top" style="height:20px">
+<td>
+</td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kode Barang</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Nama Barang</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kode Kategori</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:1px">
+<td colspan="2">
+</td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Lampu TL Gantung Str 18 W</span></td>
+<td colspan="2">
+</td>
+</tr>
+<tr valign="top" style="height:19px">
+<td>
+</td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">BRG0021</span></td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">ALST</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:1px">
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:766px">
+<td colspan="5">
+</td>
+</tr>
+</table>
+<br/>
+<br/>
+
+<a name="JR_PAGE_ANCHOR_0_7"></a>
+<table class="jrPage" cellpadding="0" cellspacing="0" border="0" style="empty-cells: show; width: 595px; border-collapse: collapse; background-color: white;">
+<tr valign="top" style="height:0">
+<td style="width:20px"></td>
+<td style="width:150px"></td>
+<td style="width:279px"></td>
+<td style="width:126px"></td>
+<td style="width:20px"></td>
+</tr>
+<tr valign="top" style="height:35px">
+<td colspan="5">
+</td>
+</tr>
+<tr valign="top" style="height:20px">
+<td>
+</td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kode Barang</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Nama Barang</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kode Kategori</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:1px">
+<td colspan="2">
+</td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Lampu Spiral 23/20 Watt (Setara Philips Putih)</span></td>
+<td colspan="2">
+</td>
+</tr>
+<tr valign="top" style="height:19px">
+<td>
+</td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">BRG0025</span></td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">ALST</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:1px">
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:766px">
+<td colspan="5">
+</td>
+</tr>
+</table>
+<br/>
+<br/>
+
+<a name="JR_PAGE_ANCHOR_0_8"></a>
+<table class="jrPage" cellpadding="0" cellspacing="0" border="0" style="empty-cells: show; width: 595px; border-collapse: collapse; background-color: white;">
+<tr valign="top" style="height:0">
+<td style="width:20px"></td>
+<td style="width:150px"></td>
+<td style="width:279px"></td>
+<td style="width:126px"></td>
+<td style="width:20px"></td>
+</tr>
+<tr valign="top" style="height:35px">
+<td colspan="5">
+</td>
+</tr>
+<tr valign="top" style="height:20px">
+<td>
+</td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kode Barang</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Nama Barang</span></td>
+<td style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kode Kategori</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:1px">
+<td colspan="2">
+</td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Kabel</span></td>
+<td colspan="2">
+</td>
+</tr>
+<tr valign="top" style="height:19px">
+<td>
+</td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">BRG0029</span></td>
+<td rowspan="2" style="text-indent: 0px; text-align: left;">
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">ALST</span></td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:1px">
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign="top" style="height:766px">
+<td colspan="5">
+</td>
+</tr>
+</table>
+
+<![if IE]>
+<script>
+var links = document.querySelectorAll('link.jrWebFont');
+setTimeout(function(){ if (links) { for (var i = 0; i < links.length; i++) { links.item(i).href = links.item(i).href; } } }, 0);
+</script>
+<![endif]>
+</td><td width="50%">&nbsp;</td></tr>
+</table>
+</body>
+</html>
